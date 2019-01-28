@@ -1,0 +1,13 @@
+class A{
+	static Runnable a(){
+		return new Runnable(){
+		 public void run(){}
+		 };
+	}
+}
+class B{
+	 public static void main(String args[]){
+		  Runnable o=A.a();
+ 	      o.run();
+	}
+}
