@@ -1,3 +1,4 @@
+#add
 class A{
 	static Runnable a(){
 		return new Runnable(){
